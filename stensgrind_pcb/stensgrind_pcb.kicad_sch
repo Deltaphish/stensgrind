@@ -2397,7 +2397,7 @@
 		)
 		(uuid "4d4fbb85-e9ba-44f1-9e35-9d090aa1f65f")
 	)
-	(text "NOTE: LEDS number does not correspond to SWT number, see PCB for layout"
+	(text "NOTE: LEDS number does not correspond to SW number, see PCB for layout"
 		(exclude_from_sim no)
 		(at 350.52 109.474 0)
 		(effects
