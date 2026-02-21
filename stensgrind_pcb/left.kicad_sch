@@ -7258,7 +7258,7 @@
 		(uuid "29c2fc4e-a199-4b17-82c8-2ad0c79a5164")
 	)
 	(label "COL_4"
-		(at 130.81 97.79 180)
+		(at 130.81 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7268,7 +7268,7 @@
 		(uuid "32e1b683-1d6e-435b-aa64-311473fe5885")
 	)
 	(label "LED_DOUT_V3.3"
-		(at 68.58 87.63 0)
+		(at 68.58 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7448,7 +7448,7 @@
 		(uuid "71a69d3e-d0e3-4880-b1b0-11741e3792c1")
 	)
 	(label "CAN_TX"
-		(at 68.58 92.71 0)
+		(at 68.58 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7468,7 +7468,7 @@
 		(uuid "83283bf9-b4ad-4a87-acb1-83b00d29aebe")
 	)
 	(label "COL_6"
-		(at 130.81 95.25 180)
+		(at 130.81 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7508,7 +7508,7 @@
 		(uuid "9d9927e9-be1f-4bde-ac2c-633126e56b26")
 	)
 	(label "CAN_RX"
-		(at 68.58 90.17 0)
+		(at 68.58 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7628,7 +7628,7 @@
 		(uuid "e1276a45-67b1-47e5-b5dd-3224b33749db")
 	)
 	(label "COL_5"
-		(at 130.81 92.71 180)
+		(at 130.81 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7746,6 +7746,12 @@
 			(uuid "e2e2893c-7442-4a45-aca1-fcd08b47ce85")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR015")
@@ -7815,6 +7821,12 @@
 			(uuid "9603b4d9-c750-47fa-b53d-b548909ee3eb")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R_LED_DATA_?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R_LED_DATA_4")
@@ -7885,6 +7897,12 @@
 			(uuid "2eab2184-1e25-48e5-865c-68f12cfbe3b9")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R2")
@@ -8000,6 +8018,12 @@
 			(uuid "c227259a-fc82-41c9-875b-50ec8b3650c0")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U13")
@@ -8078,6 +8102,12 @@
 			(uuid "77af9c2c-a196-48e4-a899-af347c741005")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U2")
@@ -8193,6 +8223,12 @@
 			(uuid "1be2487f-42cc-4576-8da3-887fcb5f10d6")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U8")
@@ -8260,6 +8296,12 @@
 			(uuid "1a9f0f21-1654-418a-b597-56251f2f4640")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW5")
@@ -8375,6 +8417,12 @@
 			(uuid "c0b9b27c-2edd-45fc-950f-7847cbc69017")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U11")
@@ -8463,6 +8511,12 @@
 			(uuid "7e40c77e-bc1d-4e1f-9c17-871dde078500")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D7")
@@ -8529,6 +8583,12 @@
 			(uuid "4f329303-502e-46d9-9c3e-a6330ba05467")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR04")
@@ -8596,6 +8656,12 @@
 			(uuid "21d04888-8c0f-472a-aebd-879dc6ef2eb4")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW14")
@@ -8671,6 +8737,12 @@
 			(uuid "b6523d35-1a5e-485d-975b-f9cebf5997f6")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "J3")
@@ -8786,6 +8858,12 @@
 			(uuid "2266d01f-3061-473c-a769-129cfc2f9de6")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U19")
@@ -8901,6 +8979,12 @@
 			(uuid "c63a7f24-8dc5-43fc-be65-7a8ad2302eb2")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U10")
@@ -8968,6 +9052,12 @@
 			(uuid "9b62d727-d4eb-4a69-a318-b24c1fa628a3")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW21")
@@ -9035,6 +9125,12 @@
 			(uuid "b7a6cb8d-9ddc-4a05-a0a4-ccd6534a26ce")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW12")
@@ -9150,6 +9246,12 @@
 			(uuid "b70fec9d-0081-42f5-b6ca-50ec938b9a60")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U6")
@@ -9265,6 +9367,12 @@
 			(uuid "8d68eb74-5ecb-489e-9c58-d93ee4b0ad65")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U5")
@@ -9335,6 +9443,12 @@
 			(uuid "deb58089-62a0-4209-b2d1-14ace5359306")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R5")
@@ -9411,6 +9525,12 @@
 			(uuid "a2febdc8-d90f-430c-88a5-d4a880be2d45")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "J1")
@@ -9526,6 +9646,12 @@
 			(uuid "511a2381-33b6-4844-9bed-c8d65d372114")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U15")
@@ -9614,6 +9740,12 @@
 			(uuid "347c6bd1-fe85-4265-b3dc-2e3baba1fb29")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D14")
@@ -9702,6 +9834,12 @@
 			(uuid "4fce4e87-3c92-4b45-9663-681978017053")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D20")
@@ -9769,6 +9907,12 @@
 			(uuid "cc5ee6c4-c9dc-45a9-bf31-abe8193319f5")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW16")
@@ -9836,6 +9980,12 @@
 			(uuid "16929949-88b2-45e8-81bb-9f7be180948e")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR014")
@@ -9951,6 +10101,12 @@
 			(uuid "838b9316-36d0-4690-ba83-6fc2e75761af")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U12")
@@ -10018,6 +10174,12 @@
 			(uuid "b0f26a8c-4f07-497a-b6ed-23c503754765")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW3")
@@ -10133,6 +10295,12 @@
 			(uuid "84015ade-b134-42e5-9d67-476c34d4a6bd")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U4")
@@ -10200,6 +10368,12 @@
 			(uuid "ebafbc9c-2846-4759-9f28-585cea2c0560")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW10")
@@ -10288,6 +10462,12 @@
 			(uuid "97bd1bfe-b5cd-4100-b48c-07233bc5c208")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D16")
@@ -10358,6 +10538,12 @@
 			(uuid "ce326c7a-3143-4941-932c-f142efa470e2")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R6")
@@ -10425,6 +10611,12 @@
 			(uuid "e0c166a0-e0b4-4278-b311-6241987b46ec")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR013")
@@ -10513,6 +10705,12 @@
 			(uuid "b4c0c08d-3587-410a-9f09-b3239a223174")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D18")
@@ -10601,6 +10799,12 @@
 			(uuid "fb2da54b-d354-4f57-9f66-dba1c98c34aa")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D1")
@@ -10668,6 +10872,12 @@
 			(uuid "2820a583-2e10-4a53-b5eb-0c5c7febf0ee")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW7")
@@ -10783,6 +10993,12 @@
 			(uuid "87ea911c-485c-4e8f-9d4f-ea554729dfec")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U18")
@@ -10849,6 +11065,12 @@
 			(uuid "ab76cfc6-3586-484f-a4d0-0fd82695fa33")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR06")
@@ -10916,6 +11138,12 @@
 			(uuid "b44fa2c7-2468-4337-95a0-6914f6ebc645")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR010")
@@ -10983,6 +11211,12 @@
 			(uuid "c9c84512-5fc4-46bd-9616-4ce921570f59")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR03")
@@ -11071,6 +11305,12 @@
 			(uuid "0531c8d0-7ac7-4d4f-94bd-56b754598b3c")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D19")
@@ -11136,6 +11376,12 @@
 			(uuid "24d3d152-e12a-40a9-ad5e-cd5bd4924f2d")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR012")
@@ -11203,6 +11449,12 @@
 			(uuid "721160e2-3e9e-4438-a873-51534c92b0be")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW18")
@@ -11291,6 +11543,12 @@
 			(uuid "6a88881f-5404-445e-9027-57f334823f36")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D6")
@@ -11358,6 +11616,12 @@
 			(uuid "bca7a986-863a-48d7-9280-43ab30321ce5")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW4")
@@ -11425,6 +11689,12 @@
 			(uuid "35098839-1a12-42c7-8695-05b8e2b7c815")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW17")
@@ -11492,6 +11762,12 @@
 			(uuid "bb0748d5-4a0c-4293-adc5-87725a8f7178")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW13")
@@ -11559,6 +11835,12 @@
 			(uuid "fc30a0ee-56be-4b71-afdb-f8b80ccaa9cb")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW20")
@@ -11692,6 +11974,12 @@
 			(uuid "19341f04-52a8-41a1-9d34-9bd3a4d5210c")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U1")
@@ -11759,6 +12047,12 @@
 			(uuid "467ba831-7a7b-4159-9c43-d7ebbaa7beb1")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR01")
@@ -11847,6 +12141,12 @@
 			(uuid "5b6eedaf-d5f2-4b5c-a797-7fb418c1be2e")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D12")
@@ -11962,6 +12262,12 @@
 			(uuid "0a0ad7ac-1fd3-44c8-bdfd-8f89ee3be03d")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U3")
@@ -12050,6 +12356,12 @@
 			(uuid "739258ca-f175-4139-9ba3-169675934931")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D13")
@@ -12138,6 +12450,12 @@
 			(uuid "3a84e8dd-ee41-48ee-b059-5186eabc01b7")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D17")
@@ -12226,6 +12544,12 @@
 			(uuid "b658f7d0-9c63-448a-bb28-cb07083207cb")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D10")
@@ -12314,6 +12638,12 @@
 			(uuid "0734231d-b8a3-44a7-ae97-4689719894dc")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D15")
@@ -12380,6 +12710,12 @@
 			(uuid "488d10a7-27fe-47c4-a589-62ea00d75dfd")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR017")
@@ -12468,6 +12804,12 @@
 			(uuid "1fc43f75-cb14-4704-af33-2b1972bd18c7")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D11")
@@ -12538,6 +12880,12 @@
 			(uuid "7ffcd995-4824-48a5-af3b-086fda712311")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "C2")
@@ -12605,6 +12953,12 @@
 			(uuid "0c3f795f-72ae-4f10-a671-05b4c328e561")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW15")
@@ -12672,6 +13026,12 @@
 			(uuid "ec0c9c3b-be35-45fd-981b-0d9c27fe658c")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR09")
@@ -12787,6 +13147,12 @@
 			(uuid "44e0cabd-03ba-4315-a5ae-5f28b16f02d6")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U9")
@@ -12853,6 +13219,12 @@
 			(uuid "d2d6b21f-6f95-456f-9569-4cc9b9604a5d")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR07")
@@ -12968,6 +13340,12 @@
 			(uuid "3f65a6d7-5e9f-42d5-9d21-d0f3d588f7d3")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U16")
@@ -13035,6 +13413,12 @@
 			(uuid "268207f6-9e2b-4e29-9b9d-f72e59421ba6")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR05")
@@ -13150,6 +13534,12 @@
 			(uuid "674127a2-0a00-4537-82a7-d699a3ded539")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U22")
@@ -13238,6 +13628,12 @@
 			(uuid "dff0bbaf-f2ad-4d2b-be0c-6f2f8522b34e")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D21")
@@ -13305,6 +13701,12 @@
 			(uuid "1dccdb70-4a59-469f-95a3-ee6a7c3fd9a3")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW9")
@@ -13372,6 +13774,12 @@
 			(uuid "4f93ec0e-02c2-4dd9-8898-d41465f1f7c2")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR019")
@@ -13442,6 +13850,12 @@
 			(uuid "849ed04d-274d-4353-9b6a-efea9ae5e1ad")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R3")
@@ -13557,6 +13971,12 @@
 			(uuid "97eeca46-d96a-4ca4-8dc9-fc2c2db150f6")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U21")
@@ -13624,6 +14044,12 @@
 			(uuid "63f259d1-32db-4589-8752-3a875e6b358c")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW8")
@@ -13739,6 +14165,12 @@
 			(uuid "270789b4-352a-4fbd-aade-18c5041101da")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U23")
@@ -13827,6 +14259,12 @@
 			(uuid "52ec16e8-5709-4cd7-b097-61a6b16406ea")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D23")
@@ -13915,6 +14353,12 @@
 			(uuid "cbb6a284-a3ac-4624-9585-c3789861daa0")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D22")
@@ -13982,6 +14426,12 @@
 			(uuid "159b1ffd-eba1-4be6-9c6d-e9226adb47c9")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW2")
@@ -14097,6 +14547,12 @@
 			(uuid "d7ea3cf2-8fe6-45d9-8c47-cfff4da1ec96")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U24")
@@ -14164,6 +14620,12 @@
 			(uuid "ebe8225d-c5d5-4a9a-9e98-c61d86af4e50")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW23")
@@ -14231,6 +14693,12 @@
 			(uuid "f6501f68-1f1e-4c3b-9f03-d2fdebd97adf")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW19")
@@ -14346,6 +14814,12 @@
 			(uuid "f97654dd-e51d-4827-a254-03abb2a232a7")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U20")
@@ -14434,6 +14908,12 @@
 			(uuid "564a6aa1-b9eb-4b73-8ba7-c8865038e455")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D4")
@@ -14504,6 +14984,12 @@
 			(uuid "78cb7b2f-8162-4544-ab78-5021e28314af")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "C1")
@@ -14571,6 +15057,12 @@
 			(uuid "db0aa4d5-6b3c-42fd-8eaa-e963297694b3")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR018")
@@ -14637,6 +15129,12 @@
 			(uuid "3e2480d1-6692-4bba-b79e-4816d09063ae")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR016")
@@ -14752,6 +15250,12 @@
 			(uuid "7e546990-7441-4969-b4d0-ded696492280")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U25")
@@ -14819,6 +15323,12 @@
 			(uuid "8a4848e1-7ef1-4e73-b311-a0b7a7854fd4")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR02")
@@ -14886,6 +15396,12 @@
 			(uuid "d411f0cd-b974-4be8-986b-10dd62b692b2")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW22")
@@ -14974,6 +15490,12 @@
 			(uuid "28d59247-82ff-4813-9313-ed001a4f4c6c")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D9")
@@ -15062,6 +15584,12 @@
 			(uuid "f91ed4b5-c7be-4be7-a68f-b35fdeaf1cb4")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D2")
@@ -15127,6 +15655,12 @@
 			(uuid "c2fa839f-05a7-4479-8a57-fe06ad6c15ec")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR011")
@@ -15194,6 +15728,12 @@
 			(uuid "dbf9dda2-4039-47c9-8e1d-56b6314b89fa")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW11")
@@ -15267,6 +15807,12 @@
 			(uuid "d0da482a-0072-483d-9959-c950c6bb6ea0")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "J2")
@@ -15334,6 +15880,12 @@
 			(uuid "a254ebed-647b-4c2d-bf86-5e899ad16d69")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW6")
@@ -15404,6 +15956,12 @@
 			(uuid "596bc74c-8898-467d-ac6b-d156c1357147")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R1")
@@ -15472,6 +16030,12 @@
 			(uuid "f1f3dd36-3ca8-4db3-ad57-5dda98cac13b")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "R_LED_DATA_?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "R_LED_DATA_3")
@@ -15587,6 +16151,12 @@
 			(uuid "b70f0bd6-00ec-45b8-bce3-03ed77ff508d")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U7")
@@ -15674,6 +16244,12 @@
 			(uuid "78fee5f9-356b-46e6-8600-2d854006b79b")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U26")
@@ -15762,6 +16338,12 @@
 			(uuid "9811b03c-6d84-49ad-bfc3-abf5c9f787a9")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D3")
@@ -15829,6 +16411,12 @@
 			(uuid "2f8daecb-dfb8-4b09-905c-2d69cf4be8ca")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "SW1")
@@ -15917,6 +16505,12 @@
 			(uuid "8eb9f1d6-4bc6-4cc1-9e51-565bb5a43140")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D8")
@@ -15983,6 +16577,12 @@
 			(uuid "9f8bb0bb-0526-4dac-925d-e219188f26c0")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "#PWR08")
@@ -16098,6 +16698,12 @@
 			(uuid "9b1fd0bb-72ca-4c0b-8880-bb5baf87734d")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U14")
@@ -16186,6 +16792,12 @@
 			(uuid "13014076-4ee9-4e31-8955-ad1422d464c2")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "D5")
@@ -16301,6 +16913,12 @@
 			(uuid "57513765-979e-4cac-bef8-463dae577a14")
 		)
 		(instances
+			(project "left"
+				(path "/0992713b-be4e-4f2f-bdd8-605c24597ba3"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "stensgrind_pcb"
 				(path "/c4fcccaa-ece3-4cd5-8faf-ca9e2b792cef/03c466ad-fce2-4401-8246-d1f1079038b3"
 					(reference "U17")
@@ -16309,4 +16927,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
