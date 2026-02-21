@@ -7679,7 +7679,7 @@
 		(uuid "fff9d33f-557f-4e7a-969b-8fc4996893e7")
 	)
 	(label "SCL"
-		(at 154.94 134.62 180)
+		(at 154.94 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8059,7 +8059,7 @@
 		(uuid "b4124c06-a64d-41f8-afd0-070077a26fdd")
 	)
 	(label "SDA"
-		(at 154.94 132.08 180)
+		(at 154.94 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
